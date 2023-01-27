@@ -1,27 +1,19 @@
-# NumberGuesserSimple
+# Number Guesser Simple
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+コンピュータサイエンス学習プラットフォーム Recursion のAngularコースの課題として作成したプロジェクト「Number Guesser Simple」です。
 
-## Development server
+## プロジェクトの概要
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+簡単な推測ゲームです。このゲームでは、プレイヤー 1 が 1-100 の数字を入力した後、プレイヤー 2 が数字を入力し、入力されたそれぞれの数字が一致するかどうか判定します。
 
-## Code scaffolding
+それぞれのプレイヤー 2 の推測の後には、その数字が正解にどれほど近いかヒントを表示します。プレイヤー 2 が正しい数字を入力すると、何回挑戦したかが表示され、ゲームは元の状態にリセットされます。
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/64852663/215094840-a5be36c2-7d42-46b3-a136-c9e76a8bfcbd.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## URL
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://shunya9811.github.io/Number-guesser-simple/
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
